@@ -1,0 +1,10 @@
+Agents:
+
+Yes, Harness CI/CD contains agents. Agents are an important part of the Harness CI/CD platform, as they are responsible for 
+executing the deployment workflows and pipelines that are defined in the Harness platform.
+
+Agents are lightweight software components that are installed on the target deployment environment, such as servers or 
+virtual machines. These agents are used to facilitate the deployment process by executing the necessary commands and scripts to deploy the application or infrastructure changes.
+
+Harness agents communicate with the Harness platform to receive instructions and report back on the progress of deployments. 
+This communication is secured using TLS encryption and can be configured to use different authentication mechanisms, such as tokens or SSH keys.
